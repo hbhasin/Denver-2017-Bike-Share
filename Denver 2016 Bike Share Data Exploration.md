@@ -83,3 +83,18 @@ Checkout Kiosk | Number of Checkouts
 20th & Chestnut | 6,239
 16th & Broadway | 6,227
 16th & Little Raven | 6,025
+
+The following ten kiosks were the most popular return kiosks by number of total bike checkouts in 2017.
+
+Return Kiosk | Number of Checkouts
+------------ | -------------------
+16th & Wynkoop | 14,717
+1350 Larimer | 9,502
+1550 Glenarm | 8,412
+16th & Platte | 7,881
+13th & Speer | 7,411
+16th & Broadway | 7,195
+16th & Little Raven | 7,104
+17th & Wewatta | 6,547
+REI | 6,422
+18th & Arapahoe | 6,370
