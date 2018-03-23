@@ -8,3 +8,7 @@
 Denver B-cycle posts its trips data set on its website as soon as its annual report is released. Trips data have been available since 2010. The 2017 annual report and its associated dataset for this report were obtained from [Denver B-Cycle website](https://denver.bcycle.com/). 
 
 ![](https://github.com/hbhasin/Denver-2017-Bike-Share/blob/master/figures/Denver%202017%20Annual%20Report.PNG)
+
+This study has two parts:
+1.	Explore the Trips datasets and visualize the data to provide useful and interesting information.
+2.	Deploy a variety of regression models to train and test the data followed by a prediction on 20 unseen samples.
