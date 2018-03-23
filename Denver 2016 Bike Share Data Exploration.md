@@ -84,9 +84,9 @@ Checkout Kiosk | Number of Checkouts
 16th & Broadway | 6,227
 16th & Little Raven | 6,025
 
-The following ten kiosks were the most popular return kiosks by number of total bike checkouts in 2017.
+The following ten kiosks were the most popular return kiosks by number of total bike returns in 2017.
 
-Return Kiosk | Number of Checkouts
+Return Kiosk | Number of Returns
 ------------ | -------------------
 16th & Wynkoop | 14,717
 1350 Larimer | 9,502
