@@ -98,3 +98,19 @@ Return Kiosk | Number of Returns
 17th & Wewatta | 6,547
 REI | 6,422
 18th & Arapahoe | 6,370
+
+### Least Popular 
+The following ten kiosks were the least popular checkout kiosks by number of total bike checkouts in 2017.
+
+Checkout Kiosk | Number of Checkouts
+-------------- | -------------------
+Colfax & Garfield | 1,566
+33rd & Arapahoe | 1,488
+14th & Elati | 1,455
+Pepsi Center | 1,382
+Colfax & Pearl | 1,327
+4th & Walnut | 1,292
+Colfax & Columbine | 1,154
+39th & Fox | 304
+29th & Brighton | 152
+7th & Sherman | 93
