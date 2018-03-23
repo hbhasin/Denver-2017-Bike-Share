@@ -114,3 +114,18 @@ Colfax & Columbine | 1,154
 39th & Fox | 304
 29th & Brighton | 152
 7th & Sherman | 93
+
+The following ten kiosks were the least popular return kiosks by number of total bike returns in 2017.
+
+Checkout Kiosk | Number of Returns
+-------------- | -------------------
+Colfax & Garfield | 1,446
+14th & Elati | 1,403
+32nd & Julian | 1,353
+4th & Walnut | 1,286
+Colfax & Pearl | 1,172
+32nd & Clay | 999
+Colfax & Columbine | 907
+39th & Fox | 316
+29th & Brighton | 204
+7th & Sherman | 120
