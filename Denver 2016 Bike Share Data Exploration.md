@@ -129,3 +129,15 @@ Colfax & Columbine | 907
 39th & Fox | 316
 29th & Brighton | 204
 7th & Sherman | 120
+
+## Checkout Method
+The 2017 dataset also includes information on the checkout method used by the rider.
+
+Checkout_Method | Number of Checkouts
+--------------- | -------------------
+Rfid | 169,974
+Kiosk Phone Lookup | 59,933
+New Kiosk Purchase | 45,504
+Kiosk Credit Card Lookup | 36,164
+Mobile | 10,503
+Virtual | 4
