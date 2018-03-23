@@ -51,3 +51,11 @@ Flex Pass (Denver B-cycle) | 3,868
 24 hour online (Denver B-cycle) | 2,250
 24 HR Rental (Denver B-cycle) | 652
 **Total Trips** | **344,256**
+
+Over 1.16% of the Denver B-cycle rides (4029 rides) had the same checkout station as return station with a trip duration of only 1 minute (Figure 1). It is very likely that the majority of these “rides” are likely people checking out a bike, and then deciding after a very short time that this particular bike doesn’t work for them.
+
+![](https://github.com/hbhasin/Denver-2017-Bike-Share/blob/master/figures/Figure%201.PNG)
+
+<p align="center">
+FIGURE 1: TRIP DURATION WHEN CHECKOUT AND RETURN KIOSKS ARE THE SAME
+</p>
