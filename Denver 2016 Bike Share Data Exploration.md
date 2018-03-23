@@ -141,3 +141,28 @@ New Kiosk Purchase | 45,504
 Kiosk Credit Card Lookup | 36,164
 Mobile | 10,503
 Virtual | 4
+
+## Checkouts per Membership Type 
+Denver B-cycle has a number of different membership passes. The following were the top ten by number of checkouts in 2017 (Figure 4).
+
+Membership Type | Number of Checkouts
+--------------- | -------------------
+24-hour Kiosk Only (Denver B-cycle) | 96,857
+Annual Plus (Denver B-cycle) | 72,715
+Annual (Denver B-cycle) | 72,456
+Monthly (Denver B-cycle) | 55,859
+Republic Rider (Annual) (Boulder B-cycle) | 6,812
+24 HR (Denver B-cycle) | 5,579
+Denver B-cycle Founder (Denver B-cycle) | 4,075
+Flex Pass (Denver B-cycle) | 3,657
+24 hour online (Denver B-cycle) | 2,073
+24 HR Rental (Denver B-cycle) | 617
+
+
+
+![](https://github.com/hbhasin/Denver-2017-Bike-Share/blob/master/figures/Figure%204.PNG)
+
+
+<p align="center">
+FIGURE 4: NUMBER OF CHECKOUTS BY MEMBERSHIP TYPE IN 2017
+</p>
