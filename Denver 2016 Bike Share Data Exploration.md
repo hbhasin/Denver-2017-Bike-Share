@@ -63,3 +63,23 @@ FIGURE 1: TRIP DURATION WHEN CHECKOUT AND RETURN KIOSKS ARE THE SAME
 There were 17,342 rows in the Trips dataset that had kiosk names not listed in the Kiosk Master List. These 17,342 rows were removed accordingly.
 
 Removing the 4,029 rows with a trip duration of 1 minute and 17,342 rows with invalid kiosk names resulted in **322,082 Denver B-cycle rides in 2017**.
+
+### Distance Traveled
+To estimate the distance between checkout and return kiosks when they are the same, using the “average speed of all the other rides (nominal distance ridden divided by the duration), and then applying this average speed to the same-kiosk trip durations” was adopted. This resulted in **535,628 miles ridden in 2017**.
+
+### Most Popular and Least Popular Checkout and Return Kiosks 
+### Most Popular 
+The following ten kiosks were the most popular checkout kiosks by number of total bike checkouts in 2017.
+
+Checkout Kiosk | Number of Checkouts
+-------------- | -------------------
+16th & Wynkoop | 12,309
+1350 Larimer | 7,724
+13th & Speer | 7,722
+1550 Glenarm | 7,643
+16th & Platte | 7,258
+18th & Arapahoe | 6,771
+14th & Stout | 6,611
+20th & Chestnut | 6,239
+16th & Broadway | 6,227
+16th & Little Raven | 6,025
