@@ -316,3 +316,17 @@ Humidity is defined by Dark Sky as “relative humidity, between 0 and 1. Figure
 <p align="center">
 FIGURE 13: TOTAL CHECKOUTS BY DAILY HUMIDITY IN 2017	
 </p>
+
+## Checkouts vs. Daily Visibility 
+Visibility is measured in miles and capped at 10 miles, according to Dark Sky. As Figure 14 shows, ridership peaks when visibility is at 10 miles.
+
+![](https://github.com/hbhasin/Denver-2017-Bike-Share/blob/master/figures/Figure%2014.PNG)
+
+<p align="center">
+FIGURE 14: TOTAL CHECKOUTS BY DAILY VISIBILITY IN 2017
+</p>
+
+## Days with Highest/Lowest Ridership
+Another interesting data discovery was the fact that Saturdays and Sundays had the highest and lowest ridership depending upon the weather. This may be due to “‘weekend warriors’ who rent B-cycles for pleasure and are highly affected by the weather in their decision to ride”.
+
+
