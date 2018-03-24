@@ -187,18 +187,6 @@ Similarly, the use of Tableau aided in the creation of the following map showing
 FIGURE 3: RETURN KIOSK LOCATIONS AND NUMBER OF RETURNS IN 2017
 </p>
 
-## Checkout Method
-The 2017 dataset also includes information on the checkout method used by the rider.
-
-Checkout_Method | Number of Checkouts
---------------- | -------------------
-RFID | 169,974
-Kiosk Phone Lookup | 59,933
-New Kiosk Purchase | 45,504
-Kiosk Credit Card Lookup | 36,164
-Mobile | 10,503
-Virtual | 4
-
 ## Checkouts per Membership Type 
 Denver B-cycle has a number of different membership passes. The following were the top ten by number of checkouts in 2017 (Figure 4).
 
