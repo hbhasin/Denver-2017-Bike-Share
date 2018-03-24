@@ -512,3 +512,24 @@ RMSE | 844.015 | 845.345 | 845.345 | 844.312 | 414.078 | 240.960 | 240.800 | 543
 
 ## Testing Regressor on unseen samples
 The Random Forest Regressor with a predictive accuracy of 92.4% was used to predict 10 samples (with numerical feature set) from the dataset that had not been used neither in the training nor in the test sets. The results are tabulated below. The regressor predicted 1 of the 10 samples accurately. Of the remaining 9 samples, it predicted well within the 7.6% range based on its accuracy on 8 samples.
+
+
+Sample Number | Actual Number of Checkouts | Predicted Number of Checkouts | +/-
+------------- | -------------------------- | ----------------------------- | ---
+1 | 21.8 | 21 | -0.8
+2 | 10.3 | 7 | -3.3
+3 | 48.5 | 44 | -4.5
+4 | 1.9 | 2 | +0.1
+5 | 29.5 | 25 | -4.5
+6 | 117.2 | 100 | -7.2
+7 | 79.6 | 83 | +3.4
+8 | 8.7 | 11 | +2.3
+9 | 118.8 | 129 | +10.2
+10 | 126.5 | 126 | - 0.5
+
+# Summary
+
+This study covered two areas:
+
+1. Explored the Trips datasets and visualized the data and provided useful and interesting information.
+2. Deployed a variety of supervised machine learning regression models to predict the number of checkouts using calendar, clock and weather attributes.
