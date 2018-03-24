@@ -1,6 +1,6 @@
 # Denver 2017 B-cycle Ridership Data Exploration and Predictive Analytics
 
-![](https://github.com/hbhasin/Denver-2017-Bike-Share/blob/master/figures/Splash.PNG)
+![](https://github.com/hbhasin/Boulder-2017-Bike-Share/blob/master/figures/splash.PNG)
 
 [Denver B-cycle](https://denver.bcycle.com/) is a non-profit public bike sharing organization operating an automated bike sharing system called Denver B-cycle. Its mission is to "serve as a catalyst to fundamentally transform public thinking and behavior by operating a bike sharing system in Denver to enhance mobility while promoting all aspects of sustainability: quality of life, equity, the environment, economic development, and public health".
 ![](https://github.com/hbhasin/Denver-2017-Bike-Share/blob/master/figures/Denver%20Bikes.PNG)
