@@ -413,3 +413,56 @@ As shown in Figure 20 visibility at 10 miles has the greatest impact on ridershi
 <p align="center">
 FIGURE 20: TOTAL CHECKOUTS BY HOURLY VISIBILITY IN 2017	
 </p>
+
+# Part 2: Regression Modeling 
+
+In his study, Tyler attempted to create a linear regression model using a number of calendar and weather variables. Using temperature, temperature squared, humidity, month, weekday, hour of day, holiday and cloud cover as input variables he arrived at an R squared value of 0.7382 which meant that approximately 73.8% of the variation in the hourly ridership could be explained by the selected variables and the linear model he used to fit the data.
+
+In this section various linear and non-linear regression models were used to test and train the Trips data that was merged with the weather data to try to predict the number of checkouts based on calendar, clock and weather conditions.
+
+The following regression models with their brief explanation were used in this study:
+	
+* Linear Regression
+  * Most widely used statistical and machine learning technique to model relationship between two sets of variables typically using a straight line. Simple to use and fast performance but lacks high accuracy when compared to non-linear models.
+	
+* Lasso Regression
+  * A type of linear regression that uses shrinkage to reduce data values toward the mean. Well suited for automating feature selection.
+
+* Ridge Regression
+  * Well suited for data that suffers from multicollinearity, i.e. features with high correlation.
+
+* Bayesian Ridge Regression
+  * An approach to linear regression in which the statistical analysis is undertaken using Bayesian inference.
+
+* Decision Tree Regression
+  * Uses a tree like structure to derive a final decision on the outcome of the analysis.
+
+* Random Forest Regression
+  * An ensemble learning method that operates by constructing a multitude of decision trees to arrive at the mean prediction.
+
+* Extra Trees Regression
+  * An extremely randomized tree regressor. Builds a totally random decision tree.
+
+* Nearest Neighbors Regression
+  * A simple algorithm that uses a similarity measure (e.g. distance between neighbors) to predict the outcome.
+
+## Regression Modeling with Categorical Feature Set
+The Checkout Month, Week Day and Hour numeric variables were converted to categorical features resulting in 45 total features for regression modeling.
+
+Prior to applying the models a feature correlation was performed on all the features to see if any of the features were highly correlated to one another. As shown in Figure 21, Temperature and Apparent Temperature were highly correlated suggesting that one of them could be removed from the features in the model application.
+
+![](https://github.com/hbhasin/Denver-2017-Bike-Share/blob/master/figures/Figure%2021.PNG)
+
+<p align="center">
+FIGURE 21: FEATURE CORRELATIONS
+</p>
+
+The models used for regression supported the use of several parameters that could be used to adjust or tune them for better performance. In most cases in this study, the parameters were set to default.
+
+The dataset was randomly spilt into 70% for training and 30% for testing. For each model the training and test scores, R Squared and RMSE results were collected and summarized. In addition, the Decision Tree, Random Forest and Extra Trees models also had their Feature Importance bar charts plotted. The chart for Extra Tree model is shown in Figure 22.
+
+![](https://github.com/hbhasin/Denver-2017-Bike-Share/blob/master/figures/Figure%2022.PNG)
+
+<p align="center">
+FIGURE 22: EXTRA TREES REGRESSION MODEL FEATURE IMPORTANCE CHART
+</p>
