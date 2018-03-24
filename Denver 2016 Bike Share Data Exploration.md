@@ -327,7 +327,8 @@ FIGURE 14: TOTAL CHECKOUTS BY DAILY VISIBILITY IN 2017
 </p>
 
 ## Days with Highest/Lowest Ridership
-Another interesting data discovery was the fact that Saturdays and Sundays had the highest and lowest ridership depending upon the weather. This may be due to “‘weekend warriors’ who rent B-cycles for pleasure and are highly affected by the weather in their decision to ride”.
+Another interesting data discovery was the fact that July 3rd (a day before Independence Day) had the highest ridership and January 5th had the lowest ridership. In general, Fridays, Saturdays and Sundays had the highest and lowest ridership depending upon the weather. This may be due to “‘weekend warriors’ who rent B-cycles for pleasure and are highly affected by the weather in their decision to ride”.
+
 
 
 ### Highest Ridership
@@ -350,7 +351,7 @@ Thursday | 2017-07-07 | 81.740 | 60.810 | 1,503
 Checkout Week Day | Date of Checkout | Max Temperature | Min Temperature | Number of Checkouts
 ----------------- | ------------------- | --------------- | --------------- | -------------------
 Sunday | 2017-12-31 | 23.560 | 10.160 | 107
-Tuedaay | 2017-12-26 | 13.700 | 8.630 | 84
+Tuesday | 2017-12-26 | 13.700 | 8.630 | 84
 Sunday | 2017-01-08 | 45.220 | 15.570 | 76
 Friday | 2017-01-06 | 19.330 | -7.450 | 56
 Monday | 2017-01-16 | 33.820 | 27.400 | 55
@@ -494,7 +495,7 @@ For each model the training and test scores, R Squared and RMSE results were col
 ![](https://github.com/hbhasin/Denver-2017-Bike-Share/blob/master/figures/Figure%2024.PNG)
 
 <p align="center">
-FIGURE 24: RANDOM FOREST REGRESSION MODEL FEATURE IMPORTANCE CHART
+FIGURE 24: EXTRA TREES REGRESSION MODEL FEATURE IMPORTANCE CHART
 </p>
 
 ## Regression Modeling Summary – Numerical Feature Set
@@ -511,7 +512,7 @@ RMSE | 844.015 | 845.345 | 845.345 | 844.312 | 414.078 | 240.960 | 240.800 | 543
 * The non-linear regression models performed better than the linear models. In particular, even with a reduced feature set, the non-linear models such as the Random Forest and the Extra Trees were the best performers with R Squared values well above 0.9.
 
 ## Testing Regressor on unseen samples
-The Random Forest Regressor with a predictive accuracy of 92.4% was used to predict 10 samples (with numerical feature set) from the dataset that had not been used neither in the training nor in the test sets. The results are tabulated below. The regressor predicted 1 of the 10 samples accurately. Of the remaining 9 samples, it predicted well within the 7.6% range based on its accuracy on 8 samples.
+The Extra Trees Regressor with a predictive accuracy of 91% was used to predict 10 samples (with numerical feature set) from the dataset that had not been used neither in the training nor in the test sets. The results are tabulated below. The regressor predicted all the 10 samples well within the 9% range based on its predictive accuracy.
 
 
 Sample Number | Actual Number of Checkouts | Predicted Number of Checkouts | +/-
