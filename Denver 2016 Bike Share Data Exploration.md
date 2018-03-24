@@ -330,3 +330,38 @@ FIGURE 14: TOTAL CHECKOUTS BY DAILY VISIBILITY IN 2017
 Another interesting data discovery was the fact that Saturdays and Sundays had the highest and lowest ridership depending upon the weather. This may be due to “‘weekend warriors’ who rent B-cycles for pleasure and are highly affected by the weather in their decision to ride”.
 
 
+### Highest Ridership
+
+Checkout Week Day | Date of Checkout | Max Temperature | Min Temperature | Number of Checkouts
+----------------- | ------------------- | --------------- | --------------- | -------------------
+Monday | 2017-07-03 | 84.630 | 56.460 | 1,633
+Sunday | 2017-05-28 | 67.660 | 40.570 | 1,627
+Friday | 2017-09-01 | 82.270 | 58.350 | 1,612
+Friday | 2017-06-30 | 70.830 | 51.380 | 1,609
+Saturday | 2017-06-03 | 72.020 | 48.460 | 1,593
+Saturday | 2017-08-26 | 87.100 | 57.520 | 1,575
+Friday | 2017-08-18 | 83.370 | 54.080 | 1,556
+Saturday | 2017-08-12 | 78.570 | 55.480 | 1,552
+Thursday | 2017-08-25 | 83.620 | 54.650 | 1,514
+Thursday | 2017-07-07 | 81.740 | 60.810 | 1,503
+
+### Lowest Ridership
+
+Checkout Week Day | Date of Checkout | Max Temperature | Min Temperature | Number of Checkouts
+----------------- | ------------------- | --------------- | --------------- | -------------------
+Sunday | 2017-12-31 | 23.560 | 10.160 | 107
+Tuedaay | 2017-12-26 | 13.700 | 8.630 | 84
+Sunday | 2017-01-08 | 45.220 | 15.570 | 76
+Friday | 2017-01-06 | 19.330 | -7.450 | 56
+Monday | 2017-01-16 | 33.820 | 27.400 | 55
+Saturday | 2017-04-29 | 30.440 | 27.190 | 52
+Saturday | 2017-01-07 | 25.480 | 4.130 | 49
+Monday | 2017-12-25 | 24.140 | 9.120 | 47
+Sunday | 2017-12-24 | 25.330 | 2.460 | 35
+Thursday | 2017-01-05 | 5.150 | 0.070 | 18
+
+## Checkouts vs. Hourly Weather Variables
+Hourly weather conditions provide better resolution than daily weather conditions. To investigate this, number of checkouts against hourly weather variables were also plotted and compared with the plots using daily weather variables.
+
+### Checkouts vs. Hourly Temperature
+The scatter plots in Figure 15 and 16 show that the relationship between the number of checkouts and the hourly temperatures are not linear.
