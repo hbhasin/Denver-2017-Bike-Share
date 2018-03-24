@@ -265,3 +265,54 @@ Monthly checkouts, as shown in Figure 8, suggest high ridership during the summe
 <p align="center">
 FIGURE 8: TOTAL CHECKOUTS BY MONTH IN 2017
 </p>
+
+## Merging with Weather 
+
+It is highly likely that weather plays a very important role in bike ridership and bike checkout times. This was shown in the previous plots on total checkouts per hour of the day, by weekday, and by month. To verify this, weather data obtained from Dark Sky API was merged with the Trips dataset and several graphs plotted to visualize the relationships.
+
+### Checkouts vs. Daily Temperature 
+
+Figure 9 shows the total number of checkouts against maximum and minimum daily temperature. It clearly suggests that ridership increases as the temperature increases and vice-versa.
+
+![](https://github.com/hbhasin/Denver-2017-Bike-Share/blob/master/figures/Figure%209.PNG)
+
+<p align="center">
+FIGURE 9: TOTAL CHECKOUTS BY DAILY TEMPERATURE IN 2017
+</p>
+
+Apparent temperature, as defined by Dark Sky, is “apparent (or “feels like”) temperature in degrees Fahrenheit”. It appears to have a subtle effect on bike ridership as shown in Figure 10.
+
+
+![](https://github.com/hbhasin/Denver-2017-Bike-Share/blob/master/figures/Figure%2010.PNG)
+
+<p align="center">
+FIGURE 10: TOTAL CHECKOUTS BY DAILY APPARENT TEMPERATURE IN 2017
+</p>
+
+
+## Checkouts vs. Daily Cloud Cover 
+Dark Sky defines Cloud Cover as “the percentage of sky occluded by clouds, between 0 and 1, inclusive”. Figures 11 shows the total number of checkouts against daily cloud cover. They clearly suggest that ridership is highest as the cloud cover stays at around 0.15.
+
+![](https://github.com/hbhasin/Denver-2017-Bike-Share/blob/master/figures/Figure%2011.PNG)
+
+<p align="center">
+FIGURE 11: TOTAL CHECKOUTS BY DAILY CLOUD COVER IN 2017
+</p>
+
+## Checkouts vs. Daily Wind Speed 
+Wind speed is reported in miles per hour. As shown in Figure 12, ridership does not seem to be somewhat impacted by higher wind speeds. 
+
+![](https://github.com/hbhasin/Denver-2017-Bike-Share/blob/master/figures/Figure%2012.PNG)
+
+<p align="center">
+FIGURE 12: TOTAL CHECKOUTS BY DAILY WIND SPEED IN 2017
+</p>
+
+## Checkouts vs. Daily Humidity 
+Humidity is defined by Dark Sky as “relative humidity, between 0 and 1. Figure 13 shows decreased ridership at higher humidity levels.
+
+![](https://github.com/hbhasin/Denver-2017-Bike-Share/blob/master/figures/Figure%2013.PNG)
+
+<p align="center">
+FIGURE 13: TOTAL CHECKOUTS BY DAILY HUMIDITY IN 2017	
+</p>
