@@ -372,7 +372,7 @@ The scatter plots in Figure 15 and 16 show that the relationship between the num
 FIGURE 15: TOTAL CHECKOUTS BY HOURLY TEMPERATURE IN 2017
 </p>
 
-![](https://github.com/hbhasin/Denver-2017-Bike-Share/blob/master/figures/Figure%2017.PNG)
+![](https://github.com/hbhasin/Denver-2017-Bike-Share/blob/master/figures/Figure%2016.PNG)
 
 <p align="center">
 FIGURE 16: TOTAL CHECKOUTS BY HOURLY APPARENT TEMPERATURE IN 2017
