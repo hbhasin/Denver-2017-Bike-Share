@@ -214,3 +214,54 @@ Denver B-cycle Founder (Denver B-cycle) | 4,075
 Flex Pass (Denver B-cycle) | 3,657
 24 hour online (Denver B-cycle) | 2,073
 24 HR Rental (Denver B-cycle) | 617
+
+
+
+![](https://github.com/hbhasin/Denver-2017-Bike-Share/blob/master/figures/Figure%204.PNG)
+
+
+<p align="center">
+FIGURE 4: NUMBER OF CHECKOUTS BY MEMBERSHIP TYPE IN 2017
+</p>
+
+## Ridership by Calendar and Clock Variables 
+### Ridership by Hour 
+Bike checkout time is probably the most important attribute in the Trips dataset. Each checkout time was converted into its integer hour. For example, 7:02 AM or 7:59 AM would be converted to an integer of 7. In this way, total number of checkouts could be aggregated for the year and plotted against their hours of the day, as shown in Figure 5.
+
+It appears that the highest number of checkouts occur between 4 PM and 5 PM with ridership increasing steadily from 10 AM onwards.
+
+![](https://github.com/hbhasin/Denver-2017-Bike-Share/blob/master/figures/Figure%205.PNG)
+
+
+<p align="center">
+FIGURE 5: NUMBER OF CHECKOUTS BY HOUR IN 2017
+</p>
+
+
+
+Figure 6 shows the average distance ridden by the hour of the day in 2017. More distance is covered during the 10 AM to 2 PM period and declining steadily thereafter. There appears to be a sharp increase in distance ridden between 11 PM and midnight.
+
+![](https://github.com/hbhasin/Denver-2017-Bike-Share/blob/master/figures/Figure%206.PNG)
+
+<p align="center">
+FIGURE 6: ESTIMATED AVERAGE MILES RIDDEN BY HOUR OF CHECKOUT IN 2017
+</p>
+
+
+## Ridership by Hour and Weekday 
+Figure 7 shows that weekday ridership patterns are similar. On the other hand weekend ridership demonstrate a busy afternoon (between 12 PM and 3 PM)
+
+![](https://github.com/hbhasin/Denver-2017-Bike-Share/blob/master/figures/Figure%207.PNG)
+
+<p align="center">
+FIGURE 7: CHECKOUTS BY HOUR OF DAY PER WEEKDAY IN 2017
+</p>
+
+## Ridership by Month 
+Monthly checkouts, as shown in Figure 8, suggest high ridership during the summer months and low ridership during the winter months.
+
+![](https://github.com/hbhasin/Denver-2017-Bike-Share/blob/master/figures/Figure%208.PNG)
+
+<p align="center">
+FIGURE 8: TOTAL CHECKOUTS BY MONTH IN 2017
+</p>
