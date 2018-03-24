@@ -416,8 +416,6 @@ FIGURE 20: TOTAL CHECKOUTS BY HOURLY VISIBILITY IN 2017
 
 # Part 2: Regression Modeling 
 
-In his study, Tyler attempted to create a linear regression model using a number of calendar and weather variables. Using temperature, temperature squared, humidity, month, weekday, hour of day, holiday and cloud cover as input variables he arrived at an R squared value of 0.7382 which meant that approximately 73.8% of the variation in the hourly ridership could be explained by the selected variables and the linear model he used to fit the data.
-
 In this section various linear and non-linear regression models were used to test and train the Trips data that was merged with the weather data to try to predict the number of checkouts based on calendar, clock and weather conditions.
 
 The following regression models with their brief explanation were used in this study:
