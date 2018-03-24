@@ -365,3 +365,51 @@ Hourly weather conditions provide better resolution than daily weather condition
 
 ### Checkouts vs. Hourly Temperature
 The scatter plots in Figure 15 and 16 show that the relationship between the number of checkouts and the hourly temperatures are not linear.
+
+![](https://github.com/hbhasin/Denver-2017-Bike-Share/blob/master/figures/Figure%2015.PNG)
+
+<p align="center">
+FIGURE 15: TOTAL CHECKOUTS BY HOURLY TEMPERATURE IN 2017
+</p>
+
+![](https://github.com/hbhasin/Denver-2017-Bike-Share/blob/master/figures/Figure%2017.PNG)
+
+<p align="center">
+FIGURE 16: TOTAL CHECKOUTS BY HOURLY APPARENT TEMPERATURE IN 2017
+</p>
+
+### Checkouts vs. Hourly Humidity
+Figure 17 shows that humidity affects ridership significantly.
+
+![](https://github.com/hbhasin/Denver-2017-Bike-Share/blob/master/figures/Figure%2017.PNG)
+
+<p align="center">
+FIGURE 17: TOTAL CHECKOUTS BY HOURLY HUMIDITY IN 2017	
+</p>
+
+### Checkouts vs. Hourly Cloud Cover
+As shown in Figure 18 Cloud Cover certainly impacts ridership.
+
+![](https://github.com/hbhasin/Denver-2017-Bike-Share/blob/master/figures/Figure%2018.PNG)
+
+<p align="center">
+FIGURE 18: TOTAL CHECKOUTS BY HOURLY CLOUD COVER IN 2017	
+</p>
+
+### Checkouts vs. Hourly Wind Speed
+Data on wind speed indicates it is clustered heavily in 0 to 8 miles per hour range, as shown in Figure 19.
+
+![](https://github.com/hbhasin/Denver-2017-Bike-Share/blob/master/figures/Figure%2019.PNG)
+
+<p align="center">
+FIGURE 19: TOTAL CHECKOUTS BY HOURLY WIND SPEED IN 2017	
+</p>
+
+### Checkouts vs. Hourly Visibility
+As shown in Figure 20 visibility at 10 miles has the greatest impact on ridership.
+
+![](https://github.com/hbhasin/Denver-2017-Bike-Share/blob/master/figures/Figure%2020.PNG)
+
+<p align="center">
+FIGURE 20: TOTAL CHECKOUTS BY HOURLY VISIBILITY IN 2017	
+</p>
