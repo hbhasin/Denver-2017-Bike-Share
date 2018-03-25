@@ -500,7 +500,7 @@ RMSE | 844.015 | 845.345 | 845.345 | 844.312 | 414.078 | 240.960 | 240.800 | 543
 * The non-linear regression models performed better than the linear models. In particular, even with a reduced feature set, the non-linear models such as the Random Forest and the Extra Trees were the best performers with R Squared values well above 0.9.
 
 ## Testing Regressor on unseen samples
-The Extra Trees Regressor with a predictive accuracy of 91% was used to predict 10 samples (with numerical feature set) from the dataset that had not been used neither in the training nor in the test sets. The results are tabulated below. The regressor predicted all the 10 samples well within the 9% range based on its predictive accuracy.
+The Extra Trees Regressor with a predictive accuracy of 91% was used to predict 10 samples (with numerical feature set) from the dataset that had not been used neither in the training nor in the test sets. The results are tabulated below. The regressor predicted 9 of thge 10 samples well within the 9% range based on its predictive accuracy.
 
 
 Sample Number | Actual Number of Checkouts | Predicted Number of Checkouts | +/-
