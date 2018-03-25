@@ -9,7 +9,7 @@ Denver B-cycle posts its trips data set on its website as soon as its annual rep
 
 ![](https://github.com/hbhasin/Denver-2017-Bike-Share/blob/master/figures/Denver%202017%20Annual%20Report.PNG)
 
-Source: [Denver B-Cycle website](https://denver.bcycle.com/)
+Source: [Denver B-Cycle website](https://denver.bcycle.com/company)
 
 This study has two parts:
 1.	Explore the Trips datasets and visualize the data to provide useful and interesting information.
