@@ -6,7 +6,7 @@ import datetime
 import time
 
 # Get API key from Dark Sky
-apikey = '9f94f7690008a8c2432d26c83e8f1521'
+apikey = 'Your Key'
  
 Denver = [39.742043, -104.991531, 1451631600]
 Denver_Time = 1451631600
@@ -39,8 +39,8 @@ index = ['Row']
 dF = pd.DataFrame(columns = columns, index = index)
 dF1= pd.DataFrame(columns = columns, index = index)
 # Change filename to reflect month
-csv_file = "Denver_Dec_2017_Daily_Weather_Forecast.csv"
-#print(type(dF))
+csv_file = "Denver_Jan_2017_Daily_Weather_Forecast.csv"
+
 for req_day in sortedReqList:
     Denver_Time = req_day[1]
     fio = ForecastIO.ForecastIO(apikey,
@@ -50,10 +50,7 @@ for req_day in sortedReqList:
 
     if fio.has_daily() is True:
         daily = FIODaily.FIODaily(fio)
-        #print 'Daily'
-        #print 'Summary:' #, daily.summary
-        #print 'Icon:' #, daily.icon
-        #print
+
         for day in xrange(0, daily.days()):
             #print 'Day', day+1
             for item in daily.get_day(day).keys():
@@ -84,7 +81,6 @@ for req_day in sortedReqList:
     else:
         print 'No Daily data'
 
-#print dF
 
 #save to csv_file
 dF1.to_csv(csv_file, sep=',')
