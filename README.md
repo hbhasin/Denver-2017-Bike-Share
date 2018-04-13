@@ -10,7 +10,7 @@ The following project files are located in this project directory:
 
 [Denver 2017 Bike Share Data Exploration and Predictive Analysis](https://github.com/hbhasin/Denver-2017-Bike-Share/blob/master/Denver_2017_Bike_Share_Data_Exploration_V1.md) - Final Report.
 
-[Denver 2017 Excel to CSV File Conversion](https://github.com/hbhasin/Denver-2017-Bike-Share/blob/master/Denver_2017_Bike_Share_Excel_to_CSV_File_Conversion_V1.ipynb) -- Converts the Trips dataset Excel spreadsheet from a 8MB file size to a reasonable 1.8MB compressed file.
+[Denver 2017 Excel to CSV File Conversion](https://github.com/hbhasin/Denver-2017-Bike-Share/blob/master/Denver_2017_Bike_Share_Excel_to_CSV_File_Conversion_V1.ipynb) -- Converts the Trips dataset Excel spreadsheet from a 23.3MB file size to a reasonable 5.8MB compressed file.
 
 [Denver 2017 Bike Share Distance Duration Submit](https://github.com/hbhasin/Denver-2017-Bike-Share/blob/master/Denver_2017_Bike_Share_Distance_Duration_Submit_V1.ipynb) - Python 3.6 script to retrieve distances between checkout and return kiosks from [Google Distance Matrix API](https://developers.google.com/maps/documentation/distance-matrix/).
 
