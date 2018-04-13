@@ -30,7 +30,7 @@ The following project files are located in this project directory:
 
 
 ## Data Sources
-[Denver B-cycle](https://Denver.bcycle.com/) - The Trips dataset was retrieved from [Data and Reports](https://Denver.bcycle.com/data-reports).
+[Denver B-cycle](https://Denver.bcycle.com/) - The Trips dataset was retrieved from [Data and Reports](https://Denver.bcycle.com/company).
 
 Distances between Checkout and Return Kiosks: Distances were retrieved from [Google Distance Matrix API](https://developers.google.com/maps/documentation/distance-matrix/) using Python 3.6 script.
 
